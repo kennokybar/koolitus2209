@@ -1,0 +1,82 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/1314202.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Wellfleet', cursive;
+}
+
+.uudised {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 69px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.loe {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.autor {
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.uudised {
+
+}
+.uudis1 {
+    border-radius: 25px;
+    background: url(https://i.pinimg.com/564x/4c/3d/94/4c3d947e3c29ae2198a65084ec8adb4c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.uudis2 {
+    border-radius: 25px;
+    background: url(https://i.pinimg.com/564x/4c/3d/94/4c3d947e3c29ae2198a65084ec8adb4c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.uudis3 {
+    border-radius: 25px;
+    background: url(https://i.pinimg.com/564x/4c/3d/94/4c3d947e3c29ae2198a65084ec8adb4c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+div {
+    color: whitesmoke;
+}
+
+.uudis1-txt, .uudis2-txt, .uudis3-txt {
+    text-align: center;
+    border-radius: 25px;
+    background: rgba(0, 231, 255, 0.2);
+    padding: 20px;
+    width: 850px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
