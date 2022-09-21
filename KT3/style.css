@@ -44,7 +44,7 @@ a:visited {
     color: whitesmoke;
 }
 
-.uudis1 {
+.uudis {
     border-radius: 25px;
     background: url(https://i.pinimg.com/564x/4c/3d/94/4c3d947e3c29ae2198a65084ec8adb4c.jpg);
     background-position: center;
@@ -53,23 +53,6 @@ a:visited {
     padding: 20px;
 }
 
-.uudis2 {
-    border-radius: 25px;
-    background: url(https://i.pinimg.com/564x/4c/3d/94/4c3d947e3c29ae2198a65084ec8adb4c.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-}
-
-.uudis3 {
-    border-radius: 25px;
-    background: url(https://i.pinimg.com/564x/4c/3d/94/4c3d947e3c29ae2198a65084ec8adb4c.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-}
 
 div {
     color: whitesmoke;
