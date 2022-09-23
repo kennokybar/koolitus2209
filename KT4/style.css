@@ -1,0 +1,80 @@
+html {
+    font-family: 'Wellfleet', cursive; 
+    background-color: antiquewhite;
+}
+
+
+header > a > img  {
+    width: 60px;
+    mix-blend-mode: multiply;
+}
+
+
+header{
+    background-color:rgb(235, 222, 235);
+    background-position: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+body > header > nav {
+    text-align: right;
+    position: relative;
+    word-spacing: 25px;
+
+}
+
+h1 ,h2 {
+    text-align: center;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.example {
+    display: inline;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    margin: 33px;
+    width: 30%;
+    background-color: rgb(216, 134, 27);
+}
+
+footer > div  {
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(243, 205, 183);
+    clear: both;
+}
+
+footer > div > p {
+    margin: 0;
+}
+
+footer > div > a > img {
+    mix-blend-mode: multiply;
+    border-radius: 50px;
+    width: 60px;
+}
+
+
+nav {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.meist, .teenused, .kontakt {
+    background-color: rgb(184, 184, 184);
+    border-radius: 25px;  
+    padding: 10px;
+}
+
+.liitupng {
+    mix-blend-mode: multiply;
+    width: 50px;
+    float: right;
+}
