@@ -80,3 +80,9 @@ nav {
     width: 50px;
     float: right;
 }
+
+.reklaam {
+    text-align: right;
+    mix-blend-mode: multiply;
+    padding-top: 110px
+}
