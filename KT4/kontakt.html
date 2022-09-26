@@ -22,16 +22,20 @@
     </header>
     <div class="example">
     <h1>Kontakt</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non enim in dolor porta laoreet.
-        Morbi porta, turpis quis sagittis convallis, erat lacus facilisis erat, a convallis ipsum mauris nec
-        est. Mauris hendrerit sodales enim, ac efficitur elit consectetur in. Nullam id molestie nisi.
-        Vestibulum tempor, ipsum a pellentesque ullamcorper, tortor augue eleifend sapien, elementum dictum
-        nulla nulla ac lacus. Donec a mauris quam. Curabitur ex lectus, luctus in enim ut, condimentum
-        laoreet est. Integer sagittis dignissim quam, consectetur pulvinar eros imperdiet eget. Praesent ut
-        ex tortor. Sed accumsan sapien non venenatis accumsan. Curabitur et justo finibus, dignissim nibh
-        porta, eleifend quam. Vestibulum non posuere lectus, ac porta elit. Praesent sit amet dictum nibh, a
-        maximus mi. Quisque elit nulla, maximus eget dui et, imperdiet gravida tellus. Pellentesque
-        scelerisque laoreet sodales.</p>
+    <form>
+        <label for="fname">Kasutajanimi:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Nimi:</label><br>
+        <input type="text" id="lname" name="lname"required><br>
+        <label for="pwd">Parool:</label><br>
+        <input type="password" id="pwd" minlength="8" required><br>
+        <label for="pwd">Parool uuesti:</label><br>
+        <input type="password" id="pwd" minlength="8" required><br><br>
+          </select>
+        <label for="infot"><input type="checkbox"> Olen nõus enda infot saatma</label><br><br>
+        <button type="submit" formaction="/action_page2.php">Lisa</button>
+
+      </form>
         <img src="https://i.pinimg.com/originals/f3/f8/10/f3f810589a5b93fc08eb089ed56d0fba.png" alt="" width="95%" , height="350px">
     </div>
         <footer>
