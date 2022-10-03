@@ -1,0 +1,187 @@
+html {
+    display: block;
+}
+
+head {
+    display: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: clip;
+}
+
+.pais {
+    background-image: url("pildid/Hills@2x.png");
+    height: 778px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 80px;
+}
+
+.pais>nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: #0B0B0B;
+    display: flex;
+    width: 66.72px;
+}
+
+.logo-pilt {
+    height: 64px;
+}
+
+.logo-tekst {
+    font-weight: 800;
+    font-size: 33px;
+    text-align: left;
+    line-height: 35px;
+    flex-direction: column;
+}
+
+.parem-pool {
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 2.67px;
+    display: flex;
+    align-items: center;
+}
+
+.parem-pool>a {
+    text-decoration: none;
+    color: #0B0B0B;
+    margin-left: 20px;
+}
+
+.pais>.alumine {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.pais>.alumine>.sisu {
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pais>.alumine>.pilt {
+    background-image: url("pildid/Image@2x.png");
+    width: 914px;
+    height: 914px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 470px;
+    margin-right: -300px;
+}
+
+.pais>.alumine>.pildi-vari {
+    margin-left: 200px;
+}
+
+
+.liblikas1 {
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 60px;
+    text-align: left;
+    margin-top: 483px;
+    margin-left: 31px;
+    position: absolute;
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 0;
+    font-weight: 800;
+}
+
+h1,
+h2 {
+    line-height: 42.74px;
+}
+
+h3 {
+    line-height: 29px;
+}
+
+body {
+    background-image: url("pildid/component.png") 0% 0% no-repeat padding-box;
+}
+
+.pais>.alumine>.sisu>h1 {
+    font-size: 74px;
+}
+
+.pais>.alumine>.sisu>h2 {
+    font-size: 40px;
+}
+
+.pais>.alumine>.sisu>h3 {
+    font-size: 21px;
+}
+
+.pais>.alumine>.sisu>.button {
+    background-color: black;
+    padding: 22px;
+    text-decoration: none;
+    display: flex;
+    font-size: 12.5px;
+    cursor: pointer;
+    text-align: left;
+    letter-spacing: 2.25px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: fit-content;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+
+.pais>.alumine>.sisu> {
+    width: 60px;
+    height: 32px;
+    text-align: left;
+    margin: 0%;
+    position: absolute;
+}
+
+.pais>.alumine>.liblikas2 {
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 63px;
+    height: 41px;
+    margin-left: 508px;
+    margin-top: 320px;
+}
+
+.tekst-pildid {
+    width: 449px;
+    height: 211px;
+    font-size: 21px;
+}
+
+.fotod {
+    position: absolute;
+    margin-left: 63px;
+    margin-right: -610px;
+    gap: 50px;
+}
+
+.tekst-pildid,
+.fotod {
+    display: inline-block;
+    justify-content: space-between;
+}
