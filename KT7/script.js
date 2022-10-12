@@ -22,14 +22,26 @@ let uudised = [
 ];
 
 let uudisedElement = document.querySelector('.uudised');
+
 for (let i = 0; i < uudised.length; i++) {
     let uudisElement = document.createElement('div');
     uudisElement.classList = ['uudis'];
+
     let pildiElement = document.createElement('img');
     pildiElement.src = uudised[i].pildiUrl;
     uudisElement.appendChild(pildiElement);
+
     let pealKiriElement = document.createElement('h1');
-    pealKiriElement.src = uudised[i].pealKiri;
-    uudisedElement.appendChild(pealKiriElement);
+    pealKiriElement.innerHTML = uudised[i].pealKiri;
+    uudisElement.appendChild(pealKiriElement);
+
+    let tekstElement = document.createElement('p');
+    tekstElement.innerHTML = uudised[i].tekstElement;
+    uudisElement.appendChild(tekstElement);
+
+    let viideUudiseleElement = document.createElement('a');
+    viideUudiseleElement.innerHTML = uudised[i].viideUudiseleElement;
+    uudisElement.appendChild(viideUudiseleElement);
+
     uudisedElement.appendChild(uudisElement);
 }
