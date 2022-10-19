@@ -72,3 +72,8 @@ div {
 footer {
     margin-top: 15px;
 }
+
+.uudis>img{
+    width: 500px;
+    height: 200px;
+}

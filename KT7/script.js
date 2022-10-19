@@ -32,15 +32,16 @@ for (let i = 0; i < uudised.length; i++) {
     uudisElement.appendChild(pildiElement);
 
     let pealKiriElement = document.createElement('h1');
+    pealKiriElement.classList = ['pealkiri'];
     pealKiriElement.innerHTML = uudised[i].pealKiri;
     uudisElement.appendChild(pealKiriElement);
 
     let tekstElement = document.createElement('p');
-    tekstElement.innerHTML = uudised[i].tekstElement;
+    tekstElement.innerHTML = uudised[i].tekst;
     uudisElement.appendChild(tekstElement);
 
     let viideUudiseleElement = document.createElement('a');
-    viideUudiseleElement.innerHTML = uudised[i].viideUudiseleElement;
+    viideUudiseleElement.innerHTML = uudised[i].viideUudisele;
     uudisElement.appendChild(viideUudiseleElement);
 
     uudisedElement.appendChild(uudisElement);
